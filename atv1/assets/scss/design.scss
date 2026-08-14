@@ -1,0 +1,149 @@
+$black: #050505;
+$navbar: #1c1c1c;
+
+$white: #ffffff;
+$gray: #777777;
+$gray-light: #a5a5a5;
+
+$border: #3a3a3a;
+
+$green: #319900;
+
+
+body {
+    background-color: $black;
+
+    color: $white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+
+.navbar {
+    background-color: $navbar;
+
+    border-radius: 0 0 5px 5px;
+}
+
+.nav-links a,
+.social-links a {
+    color: $gray;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+.nav-links a:hover,
+.social-links a:hover {
+    color: $white;
+}
+
+
+/* HERO */
+
+.hero-content {
+
+    h1 {
+        color: $white;
+
+        font-size: 44px;
+        font-weight: 700;
+
+        margin-bottom: 8px;
+    }
+
+    h2 {
+        color: #bdbdbd;
+
+        font-size: 23px;
+        font-weight: 300;
+
+        margin-bottom: 55px;
+    }
+
+    p {
+        max-width: 570px;
+
+        color: #999999;
+
+        font-family: monospace;
+
+        font-size: 20px;
+        line-height: 1.7;
+
+        margin-bottom: 0;
+    }
+}
+
+
+/* BOTÃO */
+
+.button {
+    display: inline-block;
+
+    margin-top: 165px;
+
+    padding: 20px 64px;
+
+    background-color: $green;
+
+    color: $white;
+
+    border-radius: 3px;
+
+    font-family: monospace;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #3cab00;
+
+    transform: translateY(-2px);
+}
+
+
+/* FOTO */
+
+.profile img {
+    width: 480px;
+    height: 480px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+
+/* TECNOLOGIAS */
+
+.technologies-title {
+    color: #eeeeee;
+
+    font-family: monospace;
+
+    font-size: 18px;
+
+    margin-bottom: 20px;
+}
+
+.technology {
+    border: 1px solid $border;
+
+    border-radius: 8px;
+
+    color: $white;
+
+    font-size: 18px;
+    font-weight: bold;
+}

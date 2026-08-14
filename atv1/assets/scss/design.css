@@ -1,0 +1,92 @@
+@charset "UTF-8";
+body {
+  background-color: #050505;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.navbar {
+  background-color: #1c1c1c;
+  border-radius: 0 0 5px 5px;
+}
+
+.nav-links a,
+.social-links a {
+  color: #777777;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.nav-links a:hover,
+.social-links a:hover {
+  color: #ffffff;
+}
+
+/* HERO */
+.hero-content h1 {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.hero-content h2 {
+  color: #bdbdbd;
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 55px;
+}
+.hero-content p {
+  max-width: 570px;
+  color: #999999;
+  font-family: monospace;
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* BOTÃO */
+.button {
+  display: inline-block;
+  margin-top: 165px;
+  padding: 20px 64px;
+  background-color: #319900;
+  color: #ffffff;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: #3cab00;
+  transform: translateY(-2px);
+}
+
+/* FOTO */
+.profile img {
+  width: 480px;
+  height: 480px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+/* TECNOLOGIAS */
+.technologies-title {
+  color: #eeeeee;
+  font-family: monospace;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.technology {
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}/*# sourceMappingURL=design.css.map */
